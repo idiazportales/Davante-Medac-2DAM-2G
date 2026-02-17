@@ -3,21 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Modular</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <link rel="stylesheet" href="style.css" />
   <body>
-    <div>
-      <input type="number" id="num1" />
-      <input type="number" id="num2" />
-      <button id="sumar">+</button>
-      <button id="restar">-</button>
-      <button id="multiplicar">*</button>
-      <button id="dividir">/</button>
-      <button id="calcular">Calcular</button>
+    <div class="calculadora">
+      <input type="number" id="num1" placeholder="Número 1" />
+      <input type="number" id="num2" placeholder="Número 2" />
 
-      <p id="resultado"></p>
+      <div class="botones">
+        <button id="sumar">+</button>
+        <button id="restar">-</button>
+        <button id="multiplicar">*</button>
+        <button id="dividir">/</button>
+      </div>
+
+      <p id="resultado">Resultado: </p>
 
       <button id="limpiar">Limpiar</button>
     </div>
+
+    <!-- Enlazamos operaciones.js como módulo -->
+    <script type="module" src="operaciones.js"></script>
   </body>
 </html>

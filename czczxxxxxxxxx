@@ -1,0 +1,96 @@
+[33mcommit c05554b4e1a5832e0de9abb3ea4ae956edaa0613[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature-main[m[33m)[m
+Author: isaac <isaacalonsojrz@gmail.com>
+Date:   Tue Feb 17 15:11:34 2026 +0100
+
+    Agregar archivo operaciones.js con lógica de eventos y cálculo
+
+[33mcommit 05019647b49a289baa55fe38f07104964a1222bf[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: dccd18b a34397a
+Author: Iker <ikerdc2005@gmail.com>
+Date:   Tue Feb 17 18:01:06 2026 +0100
+
+    Merge pull request #4 from idiazportales/feature-dividir
+    
+    Feature dividir
+
+[33mcommit a34397adc09b4d57eba021e22bc76147cf3fcd7e[m
+Author: Frans-AV <fransav2006@gmail.com>
+Date:   Tue Feb 17 17:59:54 2026 +0100
+
+    division
+
+[33mcommit dccd18b93c3d64727ab26917a05967925fa90324[m
+Merge: 66c8cd7 17fe6dc
+Author: Iker <ikerdc2005@gmail.com>
+Date:   Tue Feb 17 17:59:21 2026 +0100
+
+    Merge pull request #3 from idiazportales/feature-restar
+    
+    restar
+
+[33mcommit 17fe6dc73a907e164236b2b48e75853b77f33d2d[m
+Merge: 7f9d1e3 66c8cd7
+Author: Iker <ikerdc2005@gmail.com>
+Date:   Tue Feb 17 17:59:10 2026 +0100
+
+    Merge branch 'main' into feature-restar
+
+[33mcommit 0c5f8ce5bd64376515eef9caaa15d0afeb412cf3[m
+Author: Frans-AV <fransav2006@gmail.com>
+Date:   Tue Feb 17 17:58:48 2026 +0100
+
+    division
+
+[33mcommit 7f9d1e378c063c1fdc9cf74a0fb5bc6a0414403f[m
+Author: PedroBM12345678 <pbmmedac06@gmail.com>
+Date:   Tue Feb 17 17:57:22 2026 +0100
+
+    restar
+
+[33mcommit 66c8cd78218f0a2a9ebaf9c2455f0173ad32fbbc[m
+Merge: 8fa4cb2 7aceb7d
+Author: Iker <ikerdc2005@gmail.com>
+Date:   Tue Feb 17 17:56:30 2026 +0100
+
+    Merge pull request #2 from idiazportales/feature-multiplicar
+    
+    multiplicar
+
+[33mcommit 7aceb7dba3766f1698553394e1174f87a047f36e[m
+Author: PatatasYWebos <maxim.butrimov@gmail.com>
+Date:   Tue Feb 17 17:55:03 2026 +0100
+
+    multiplicar
+
+[33mcommit 8fa4cb22010f32339e49e5a2de9028568a958dc4[m
+Merge: d6a7833 6e8801b
+Author: Iker <ikerdc2005@gmail.com>
+Date:   Tue Feb 17 17:50:31 2026 +0100
+
+    Merge pull request #1 from idiazportales/feature-sumar
+    
+    Sumar
+
+[33mcommit 6e8801b6f2bcb8c3e5b88993ecc45c243f80d239[m
+Author: Mauri2804 <maurialejandrorubini@gmail.com>
+Date:   Tue Feb 17 17:50:09 2026 +0100
+
+    Sumar
+
+[33mcommit d6a7833e8d90504beb31007ee0fdf97e10e071c0[m
+Author: dominguezz05 <ikerdc2005@gmail.com>
+Date:   Tue Feb 17 17:43:16 2026 +0100
+
+    chore: index and css new
+
+[33mcommit 17a8ded92f659d1ec2506cc21dfffa2e35892204[m
+Author: dominguezz05 <ikerdc2005@gmail.com>
+Date:   Tue Feb 17 17:29:40 2026 +0100
+
+    chore: new necessary files por inicialize project
+
+[33mcommit 8c5bdbd0521e4db3988155ea15fbce5a17c7a7c3[m
+Author: idiazportales <133283620+idiazportales@users.noreply.github.com>
+Date:   Tue Feb 17 13:46:06 2026 +0100
+
+    Initial commit
