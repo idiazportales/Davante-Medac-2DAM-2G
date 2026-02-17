@@ -1,0 +1,83 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+div {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e9ecef;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #dee2e6;
+  transform: translateY(-2px);
+}
+
+/* Estilos especiales para botones de acción */
+#calcular {
+  width: 90%;
+  background-color: #28a745;
+  color: white;
+  margin-top: 15px;
+}
+
+#calcular:hover {
+  background-color: #218838;
+}
+
+#limpiar {
+  width: 90%;
+  background-color: #dc3545;
+  color: white;
+  margin-top: 10px;
+  height: 40px;
+  font-size: 0.9rem;
+}
+
+#limpiar:hover {
+  background-color: #c82333;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  min-height: 1.8rem;
+}
