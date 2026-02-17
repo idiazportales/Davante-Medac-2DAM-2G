@@ -17,3 +17,4 @@ botonDividir.addEventListener("click", () => {
     const resultado = dividir();
     document.getElementById("resultado").innerHTML = "El resultado de la división es: " + resultado;
 });
+console.log("hola");
