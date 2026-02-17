@@ -1,14 +1,20 @@
-let num1 = document.getElementById("num1").value;
-let num2 = document.getElementById("num2").value;
-export function dividir(num1, num2) {
+// Exportamos la función dividir
+export function dividir() {
+    const num1 = parseFloat(document.getElementById("num1").value);
+    const num2 = parseFloat(document.getElementById("num2").value);
+
+    // Validamos división por 0
     if (num2 === 0) {
-        return "Error: Div entre 0";
+        return "Error: División entre 0";
     }
+
     return num1 / num2;
 }
 
-let botonDividir = document.getElementById("botonDividir");
-botonDividir.addEventListener("click", function() {
-    let resultado = dividir(parseFloat(num1), parseFloat(num2));
+// Capturamos el botón y agregamos el listener
+const botonDividir = document.getElementById("dividir");
+botonDividir.addEventListener("click", () => {
+    const resultado = dividir();
     document.getElementById("resultado").innerHTML = "El resultado de la división es: " + resultado;
 });
+console.log("hola");
